@@ -3458,7 +3458,7 @@ input, select, textarea {
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
-		text-align: left;
+		text-align: center;
 		z-index: 21;
 	}
 
@@ -3490,7 +3490,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
+			text-align: center;
 			vertical-align: middle;
 			z-index: 1;
 		}
