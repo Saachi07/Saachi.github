@@ -20,7 +20,7 @@
 							<li><a href="#">About</a></li>
                             <li> <a href="#">Portfolio</a></li>					
 							<li><a href="elements.html" class="button primary">Contact</a></li>
-						</ul>
+						</ul>	
 					</nav>
 				</header>
 
@@ -40,12 +40,12 @@
 						</header>
 						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
+					<!--a href="#one" class="goto-next scrolly">Next</a-->
 				</section>
 
 			<!-- One -->
 				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<!--span class="image fit main"><img src="images/pic02.jpg" alt="" /></span-->
 					<div class="content">
 						<div class="container">
 							<div class="row">
@@ -67,12 +67,12 @@
 							</div>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
+					<!--a href="#two" class="goto-next scrolly">Next</a-->
 				</section>
 
 			<!-- Two -->
 				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<!--span class="image fit main"><img src="images/pic03.jpg" alt="" /></span-->
 					<div class="content">
 						<header>
 							<h2>Interdum amet non magna accumsan</h2>
@@ -83,12 +83,12 @@
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
 					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
+					<!--a href="#three" class="goto-next scrolly">Next</a-->
 				</section>
 
 			<!-- Three -->
 				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<!--span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span-->
 					<div class="content">
 						<header>
 							<h2>Interdum felis blandit praesent sed augue</h2>
@@ -99,7 +99,7 @@
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
+					<!--a href="#four" class="goto-next scrolly">Next</a-->
 				</section>
 
 			<!-- Four -->
@@ -126,21 +126,6 @@
 									<h3>Cubilia cep lobortis</h3>
 									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
 								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-paper-plane"></span>
-									<h3>Non semper interdum</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-file"></span>
-									<h3>Odio laoreet accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
 							</div>
 						</div>
 						<footer class="major">
@@ -152,33 +137,65 @@
 				</section>
 
 			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Magna faucibus lorem diam</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
-						</header>
-						<form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
+			<!-- Form -->
+				<section>
+					<h3>Form</h3>
+					<form method="post" action="#">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" value="" placeholder="Name" />
 							</div>
-						</form>
-					</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" value="" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<select name="category" id="category">
+									<option value="">- Category -</option>
+									<option value="1">Manufacturing</option>
+									<option value="1">Shipping</option>
+									<option value="1">Administration</option>
+									<option value="1">Human Resources</option>
+								</select>
+							</div>
+							<div class="col-4 col-12-medium">
+								<input type="radio" id="priority-low" name="priority" checked>
+								<label for="priority-low">Low Priority</label>
+							</div>
+							<div class="col-4 col-12-medium">
+								<input type="radio" id="priority-normal" name="priority">
+								<label for="priority-normal">Normal Priority</label>
+							</div>
+							<div class="col-4 col-12-medium">
+								<input type="radio" id="priority-high" name="priority">
+								<label for="priority-high">High Priority</label>
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="checkbox" id="copy" name="copy">
+								<label for="copy">Email me a copy of this message</label>
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="checkbox" id="human" name="human" checked>
+								<label for="human">I am a human and not a robot</label>
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
 				</section>
 
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
 
