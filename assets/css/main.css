@@ -2963,6 +2963,11 @@ input, select, textarea {
 /* Spotlight */
 
 	.spotlight {
+		background-attachment: fixed;
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(174, 36, 36, 0.25);
+		height: 50vh;
 		overflow: hidden;
 		position: relative;
 	}
